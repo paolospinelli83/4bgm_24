@@ -34,7 +34,14 @@ public abstract class Personaggio {
 		this.equipaggiamento = equipaggiamento;
 	}
 
+	public int usaArma(int indiceArma) {
+		return equipaggiamento.getArmi().get(indiceArma).getDanno();		
+	}
 	
+	public int usaDifesa(int indiceDifesa) {
+		return equipaggiamento.getDifese().get(indiceDifesa).getResistenza();
+		
+	}
 	
 	
 }

@@ -9,4 +9,6 @@ public class Giocatore extends Personaggio {
 		super(nome, statistiche, equipaggiamento);
 	}
 
+	
+	
 }
